@@ -32,8 +32,8 @@ Sequence Strategist is a high-performance orchestration platform designed for bu
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/sequence-strategist.git
-   cd sequence-strategist
+   git clone https://github.com/siuxsa/SIUXSA-EXTREME.git
+   cd SIUXSA-EXTREME
    ```
 
 2. **Install dependencies**:
