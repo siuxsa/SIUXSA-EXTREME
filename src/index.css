@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@300;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-obsidian: #0A0A0A;
+  --color-graphite: #1A1A1A;
+  --color-cyan-glow: #00F5FF;
+}
+
+@layer base {
+  body {
+    @apply bg-obsidian text-slate-100 font-sans antialiased;
+  }
+}
+
+.glass-panel {
+  @apply bg-graphite/50 backdrop-blur-xl border border-white/10;
+}
+
+.cyan-neon-ring {
+  @apply ring-1 ring-cyan-glow/50 shadow-[0_0_15px_rgba(0,245,255,0.2)];
+}
