@@ -1,0 +1,6 @@
+{
+  "name": "Sequence Strategist: Extreme Edition",
+  "description": "An advanced tool orchestration platform with persistence, mission control sequencing, and WSL-native execution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["Workflow Orchestration", "Command Sequencing", "Recon Visualization"]
+}
